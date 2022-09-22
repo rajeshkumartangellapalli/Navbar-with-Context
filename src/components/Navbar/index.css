@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.light-mode-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333333;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dark-mode-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333333;
+  height: 100px;
+  background-color: #333333;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.nav-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.light-theme-nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-decoration: none;
+}
+.dark-Theme-nav-link {
+  font-size: 20px;
+  font-family: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-decoration: none;
+}
+.light-dark-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.change-mode-image {
+  height: 50px;
+  width: 50px;
+}
